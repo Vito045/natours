@@ -578,7 +578,7 @@ body {
   transition: all .3s; }
   @media (max-width: 56.25em) {
     .form__input {
-      width: 66%; } }
+      width: 90%; } }
   .form__input:focus {
     outline: none;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
@@ -1026,3 +1026,6 @@ body {
     @media (max-width: 56.25em) {
       .book__form {
         width: 100%; } }
+    @media (max-width: 37.5em) {
+      .book__form {
+        width: auto; } }
